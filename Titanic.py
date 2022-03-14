@@ -14,6 +14,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 import pickle
+import numpy.core.multiarray
 
 def st_display_sweetviz(report_html,width=1000,height=500):
 	report_file = codecs.open(report_html,'r')
